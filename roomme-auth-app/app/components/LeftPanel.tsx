@@ -91,7 +91,7 @@ export default function LeftPanel({
           <a href="#" className="text-purple-400 hover:underline">Forgot password</a>
         </div>
 
-        <p className="mt-8 text-sm text-gray-300">
+        <p className="mt-8 text-sm text-gray-300 text-center">
           Don’t have an account? <a href="#" className="underline text-white font-medium">Sign up</a>
         </p>
       </div>

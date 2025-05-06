@@ -673,6 +673,18 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-\[20px\] {
+  font-size: 20px;
+}
+.text-\[22px\] {
+  font-size: 22px;
+}
+.text-\[24px\] {
+  font-size: 24px;
+}
+.text-\[32px\] {
+  font-size: 32px;
+}
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -683,24 +695,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-\[0px\] {
-  font-size: 0px;
-}
-.text-\[20px\] {
-  font-size: 20px;
-}
-.text-\[22px\] {
-  font-size: 22px;
-}
-.text-\[2px\] {
-  font-size: 2px;
-}
-.text-\[32px\] {
-  font-size: 32px;
-}
-.text-\[24px\] {
-  font-size: 24px;
 }
 .font-bold {
   font-weight: 700;
@@ -737,9 +731,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-\[px\] {
-  color: px;
 }
 .underline {
   text-decoration-line: underline;
