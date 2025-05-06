@@ -21,10 +21,12 @@ export default function RightPanel() {
       />
       <div className="absolute bottom-6 left-6 right-6 mx-auto bg-white/20 text-white px-8 py-6 rounded-lg max-w-4xl backdrop-blur-md">
         {/* Added backdrop-blur-md for blur effect */}
-        <p className="text-base md:text-lg leading-relaxed">
+        <p className="text-base md:text-lg leading-relaxed"></p>
+
+        <p className="text-[32px] font-inter font-regular ">
           “We love the screen sharing and whiteboarding features, which have improved our presentations. Room.me has become an essential tool for our team, allowing us to collaborate effectively. Highly recommended!”
         </p>
-        <p className="mt-3 font-semibold">Sarah Markivoc – Project Manager</p>
+        <p className="mt-3 text-[24px] font-inter font-medium">Sarah Markivoc – Project Manager</p>
       </div>
     </div>
   );

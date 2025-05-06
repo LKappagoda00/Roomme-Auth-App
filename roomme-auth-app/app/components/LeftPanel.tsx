@@ -29,13 +29,13 @@ export default function LeftPanel({
           <Logo /> {/* Use the new Logo component */}
         </div>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">Welcome back to Room.me!</h1>
-        <p className="text-sm text-gray-300 mb-10">
+        <h1 className="text-[40px] font-inter font-medium mb-6">Welcome back to Room.me!</h1>
+        <p className="text-[20px] font-inter font-regular mb-6">
           Room.me is an innovative video conference product that revolutionizes virtual meetings.
         </p>
 
         <div className="flex flex-col gap-6">
-          <label htmlFor="email" className="text-sm text-gray-300">Email</label>
+          <label htmlFor="email" className="text-[22px] font-inter font-medium">Email address</label>
           <input
             id="email"
             type="email"
@@ -44,7 +44,7 @@ export default function LeftPanel({
             placeholder="Enter your email address"
             className="bg-gray-800 text-white p-4 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
-          <label htmlFor="password" className="text-sm text-gray-300">Password</label>
+          <label htmlFor="password" className="text-[22px] font-inter font-medium">Password</label>
           <div className="relative">
             <input
               id="password"
